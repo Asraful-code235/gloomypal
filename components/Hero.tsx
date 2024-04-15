@@ -10,7 +10,7 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyClick = () => {
-    const textToCopy = "ETjV7yB4eKiKgPLuWsX8jPPrCkqthr17qUPCxoGHDWSV";
+    const textToCopy = "144QUTGfmdmbsU3qniHRcWmDa9WGHJXQ6h9P3EEM32eo";
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
@@ -42,7 +42,7 @@ export default function Hero() {
 
       <div className="flex items-center gap-4 justify-center">
         <p className="tracking-wider max-md:text-[8px] whitespace-pre-wrap break-words ">
-          CA: ETjV7yB4eKiKgPLuWsX8jPPrCkqthr17qUPCxoGHDWSV
+          CA: 144QUTGfmdmbsU3qniHRcWmDa9WGHJXQ6h9P3EEM32eo
         </p>
         <Button
           onClick={handleCopyClick}
