@@ -10,8 +10,7 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyClick = () => {
-    const textToCopy =
-      "https://www.pump.fun/144QUTGfmdmbsU3qniHRcWmDa9WGHJXQ6h9P3EEM32eo";
+    const textToCopy = "144QUTGfmdmbsU3qniHRcWmDa9WGHJXQ6h9P3EEM32eo";
     navigator.clipboard
       .writeText(textToCopy)
       .then(() => {
